@@ -10,7 +10,8 @@ const Feature: React.FC = () => {
         <div
           className="background-image-holder"
           style={{
-            backgroundImage: "url('img/about-img.jpg')",
+            backgroundImage: "url('img/woman.png')",
+            backgroundColor: "#ffffff",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center center",
             backgroundSize: "cover",

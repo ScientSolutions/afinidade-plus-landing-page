@@ -10,7 +10,7 @@ const TeamMember: React.FC = () => {
             <div className="section-heading text-center mb-5">
               <h2>Empresas e parceiros</h2>
               <p className="lead">
-                O novo <strong>Afinidade</strong> Plus foi carinhosamente
+                O novo <strong>Afinidade Plus</strong> foi carinhosamente
                 pensado para que você, empresário, lojista ou gestor de
                 associações, possa oferecer descontos e benefícios reais para os
                 seus clientes e associados mais fiéis, através de um sistema

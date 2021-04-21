@@ -19,14 +19,28 @@ const PromoSection: React.FC = () => {
         <div className="row equal">
           {/* Promo Itens */}
           {[
-            { title: "LoremIpsium", description: "loren", icon: "" },
-            { title: "LoremIpsium", description: "loren", icon: "" },
-            { title: "LoremIpsium", description: "loren", icon: "" },
+            {
+              title: "Solidez e segurança",
+              description:
+                "mais de 20 anos de atuação em parceria com os mais diversos segmentos",
+              icon: "ti-lock",
+            },
+            {
+              title: "Benefícios reais",
+              description:
+                "Trabalhamos com parcerias inteligentes para trazer a você apenas benefícios reais",
+              icon: "ti-money",
+            },
+            {
+              title: "Expansão contínua",
+              description: "Nossa base de parceiros está em contínua expansão",
+              icon: "ti-stats-up",
+            },
           ].map((item) => {
             return (
               <div className="col-md-4 col-lg-4" key={item.title}>
                 <div className="single-promo single-promo-hover single-promo-1 rounded text-center white-bg p-5 h-100">
-                  <div className="circle-icon mb-5">
+                  <div className="circle-icon mb-5" style={{ color: "#fff" }}>
                     <span className={item.icon}></span>
                   </div>
                   <h5>{item.title}</h5>

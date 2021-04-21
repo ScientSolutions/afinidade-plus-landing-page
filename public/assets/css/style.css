@@ -312,7 +312,7 @@ strong, b{
 }
 .app-store-btn:hover{
     background: #ffffff;
-    color: #6730e3;
+    color: #3A3E93;
 }
 
 /*form field css*/
@@ -3044,4 +3044,33 @@ button, [type="button"], [type="reset"], [type="submit"] {
     background: #202877;
     color: #fff;
     opacity: 1;
+}
+.first-phone-image {
+    height: 550px;
+}
+.first-hero {
+    height: 650px;
+}
+@media (max-width: 990px) {
+    .first-phone-image {
+        height: 450px;
+    }
+    .first-hero {
+        margin-top: 20px;
+        height: 550px;
+    }
+    
+}
+@media (max-width: 770px) {
+    .first-phone-image {
+        height: 350px;
+        margin-left: auto;
+    }
+    .first-hero {
+        margin-top: 20px;
+        height: 550px;
+    }
+}
+.owl-dots {
+    display: none;
 }

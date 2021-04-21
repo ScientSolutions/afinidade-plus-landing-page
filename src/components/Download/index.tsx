@@ -15,14 +15,10 @@ const Download: React.FC = () => {
         <div className="row align-items-center justify-content-between">
           <div className="col-md-7">
             <div className="download-content text-white pb-100">
-              <h2 className="text-white">
-                Start Managing your apps business, more faster
-              </h2>
+              <h2 className="text-white">Baixe Agora</h2>
               <p className="lead">
-                Objectively deliver professional value with diverse
-                web-readiness. Collaboratively transition wireless customer
-                service without goal-oriented catalysts for change.
-                Collaboratively.
+                Não perca tempo e cadastra-se e tenha acesso a todos os
+                benefícios
               </p>
 
               <div className="download-btn">
@@ -37,11 +33,7 @@ const Download: React.FC = () => {
           </div>
           <div className="col-md-4">
             <div className="download-img d-flex align-bottom">
-              <img
-                src="img/app-hand-top.png"
-                alt="download"
-                className="img-fluid"
-              />
+              <img src="img/phone-2.png" alt="download" className="img-fluid" />
             </div>
           </div>
         </div>
