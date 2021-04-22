@@ -7,11 +7,10 @@ const ContactUsPageSection: React.FC = () => {
         <div className="row">
           <div className="col-md-9 col-lg-9">
             <div className="section-heading mb-4">
-              <h2>Reach us quickly</h2>
+              <h2>Fale Cosnoso</h2>
               <p className="lead">
-                We provide professional services for grow your business and
-                increases sell digital product. Increase sales by showing true
-                dynamics of your website.
+                Entre em contato caso queira sugerir novos parceiros ou
+                esclarecer dúvidas.
               </p>
             </div>
           </div>
@@ -31,7 +30,7 @@ const ContactUsPageSection: React.FC = () => {
                       type="text"
                       className="form-control"
                       name="name"
-                      placeholder="Enter name"
+                      placeholder="Nome completo"
                       required
                     />
                   </div>
@@ -44,7 +43,7 @@ const ContactUsPageSection: React.FC = () => {
                       size={40}
                       className="form-control"
                       id="company"
-                      placeholder="Your Company"
+                      placeholder="Empresa"
                     />
                   </div>
                 </div>
@@ -56,7 +55,7 @@ const ContactUsPageSection: React.FC = () => {
                       type="email"
                       className="form-control"
                       name="email"
-                      placeholder="Enter email"
+                      placeholder="Email"
                       required
                     />
                   </div>
@@ -68,7 +67,7 @@ const ContactUsPageSection: React.FC = () => {
                       name="phone"
                       className="form-control"
                       id="phone"
-                      placeholder="Your Phone"
+                      placeholder="Celular para contato"
                     />
                   </div>
                 </div>
@@ -82,7 +81,7 @@ const ContactUsPageSection: React.FC = () => {
                       className="form-control"
                       rows={7}
                       cols={25}
-                      placeholder="Message"
+                      placeholder="Digite sua mensagem"
                     ></textarea>
                   </div>
                 </div>
@@ -94,14 +93,14 @@ const ContactUsPageSection: React.FC = () => {
                     className="btn solid-btn"
                     id="btnContactUs"
                   >
-                    SEND
+                    Enviar
                   </button>
                 </div>
               </div>
             </form>
             <p className="form-message"></p>
           </div>
-          <div className="col-md-5">
+          {/* <div className="col-md-5">
             <div className="contact-info-wrap">
               <ul className="list-creative">
                 <li>
@@ -155,7 +154,7 @@ const ContactUsPageSection: React.FC = () => {
                 </li>
               </ul>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

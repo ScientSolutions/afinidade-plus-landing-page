@@ -21,7 +21,7 @@ const Footer: React.FC<FooterProps> = ({ noSubscription }) => {
       >
         <div className="container">
           <div className="row justify-content-between">
-            <div className="col-lg-3 mb-3 mb-lg-0">
+            {/* <div className="col-lg-3 mb-3 mb-lg-0">
               <div className="footer-nav-wrap text-white">
                 <img
                   src="img/logo-white-1x.png"
@@ -59,30 +59,24 @@ const Footer: React.FC<FooterProps> = ({ noSubscription }) => {
                   </ul>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-3 ml-auto mb-4 mb-lg-0">
+            </div> */}
+            <div className="col-lg-3 mb-4 mb-lg-0">
               <div className="footer-nav-wrap text-white">
-                <h5 className="mb-3 text-white">Others Links</h5>
+                <h5 className="mb-3 text-white">Navegação</h5>
                 <ul className="list-unstyled">
                   <li className="mb-2">
-                    <a href="/#">About Us</a>
+                    <a href="/#">Início</a>
                   </li>
                   <li className="mb-2">
-                    <a href="/#">Contact Us</a>
+                    <a href="/#">Vantagens</a>
                   </li>
                   <li className="mb-2">
-                    <a href="/#">Pricing</a>
-                  </li>
-                  <li className="mb-2">
-                    <a href="/#">Privacy Policy</a>
-                  </li>
-                  <li className="mb-2">
-                    <a href="/#">Terms and Conditions</a>
+                    <a href="/#">Nossa História</a>
                   </li>
                 </ul>
               </div>
             </div>
-            <div className="col-lg-3 ml-auto mb-4 mb-lg-0">
+            <div className="col-lg-3 mb-4 mb-lg-0">
               <div className="footer-nav-wrap text-white">
                 <h5 className="mb-3 text-white">Contato</h5>
                 <ul className="list-unstyled support-list">
@@ -120,8 +114,8 @@ const Footer: React.FC<FooterProps> = ({ noSubscription }) => {
           <div className="row text-center justify-content-center">
             <div className="col-md-6 col-lg-5">
               <p className="copyright-text pb-0 mb-0">
-                Copyrights © 2019. All rights reserved by
-                <a href="/#"> ThemeTags</a>
+                Copyrights © 2021. Todos os direitos reservados ao
+                <a href="/#"> Afinidade Plus</a>
               </p>
             </div>
           </div>
