@@ -5,7 +5,7 @@ const HeroSection: React.FC = () => {
     <section
       className="hero-section background-img pt-100"
       style={{
-        // backgroundImage: "url('img/hero-bg-4.jpg')",
+        backgroundImage: "url('img/hero-bg-4.jpg')",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center center",
         backgroundSize: "cover",
@@ -15,7 +15,7 @@ const HeroSection: React.FC = () => {
         <div className="row align-items-center justify-content-between">
           <div className="col-md-6 col-lg-6">
             <div className="hero-content-left position-relative mt-lg-0 mt-md-0 mt-5 text-white">
-              <h1 className="text-white">Afinidade Plus</h1>
+              <h1 className="text-white" style={{fontWeight: 900, fontSize: "4rem"}}>Afinidade Plus</h1>
               <p className="lead">
                 O mais novo programa de Cashback chegando ao estado do Rio
                 Grande do Norte

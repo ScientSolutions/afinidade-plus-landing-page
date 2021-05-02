@@ -1,14 +1,20 @@
 {
+  "kind": "singleType",
   "collectionName": "conteudo_landing_pages",
   "info": {
-    "name": "conteudo-landing-page",
-    "description": ""
+    "name": "Conteúdo Landing Page"
   },
   "options": {
-    "draftAndPublish": false,
     "increments": true,
     "timestamps": true,
-    "comment": ""
+    "draftAndPublish": true
   },
-  "attributes": {}
+  "pluginOptions": {},
+  "attributes": {
+    "Inico": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.inico"
+    }
+  }
 }

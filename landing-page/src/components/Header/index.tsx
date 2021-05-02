@@ -9,17 +9,14 @@ const Header: React.FC<HeaderProps> = ({ bgColor }) => {
     <header className="header">
       <nav
         className={
-          "navbar navbar-expand-lg fixed-top " +
-          (bgColor && bgColor === "white"
-            ? "custom-nav white-bg"
-            : "bg-transparent")
+          "navbar navbar-expand-lg fixed-top custom-nav white-bg"
         }
       >
         <div className="container">
           <a className="navbar-brand" href="/">
             <img
               src="/logos/afinidade-plus-logo.svg"
-              width="120"
+              width="160"
               alt="logo"
               className="img-fluid"
             />

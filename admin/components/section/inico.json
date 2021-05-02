@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_section_inicos",
+  "info": {
+    "name": "Inico",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "Descricao": {
+      "type": "text"
+    }
+  }
+}

@@ -84,7 +84,7 @@ table {
 }
 html{
     overflow-y: scroll;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 /* -----------------------------------------
@@ -149,6 +149,11 @@ a{
 strong, b{
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
+}
+
+nav.navbar {
+    background-color: #fff !important;
+    color: #3A3E93 !important;
 }
 .badge {
     display: inline;
@@ -462,6 +467,9 @@ select.form-control.has-value{
     position: relative;
     top: 2px;
 }
+.nav-link {
+    color: #3A3E93;
+}
 .navbar-brand{
     font-size: inherit;
     height: auto;
@@ -485,8 +493,9 @@ select.form-control.has-value{
     opacity: 1;
 }
 .custom-nav ul li a{
-    color: #fafafa;
+    color: #3A3E93;
     opacity: 0.8;
+    font-size: 1rem;
 }
 .affix {
     background-color: #202877;
@@ -516,7 +525,7 @@ select.form-control.has-value{
 }
 .bg-transparent.affix{
     background: rgb(202,204,246);
-background: linear-gradient(135deg, rgba(202,204,246,1) 0%, rgba(58,62,147,1) 50%, rgba(0,4,82,1) 100%);
+    background-color: #fff;
 }
 .navbar{
     transition: all .3s ease-in-out;
@@ -1809,8 +1818,8 @@ background: linear-gradient(135deg, rgba(202,204,246,1) 0%, rgba(58,62,147,1) 50
 .background-img:before{
     position: absolute;
     content: '';
-    background: rgb(202,204,246);
-    background: linear-gradient(135deg, rgba(202,204,246,1) 0%, rgba(58,62,147,1) 50%, rgba(0,4,82,1) 100%);
+    background: rgb(108,105,196);
+    background: linear-gradient(90deg, rgba(108,105,196,1) 0%, rgba(58,62,147,1) 50%, rgba(0,24,100,1) 100%);    
     width: 100%;
     height: 100%;
     top: 0;

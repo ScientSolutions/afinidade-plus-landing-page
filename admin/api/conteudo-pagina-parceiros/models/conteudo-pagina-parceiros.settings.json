@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "conteudo_pagina_parceiros",
+  "info": {
+    "name": "Conteudo Pagina Parceiros"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "Conteudo": {
+      "type": "richtext"
+    }
+  }
+}

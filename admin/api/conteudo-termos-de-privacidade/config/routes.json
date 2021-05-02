@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/conteudo-termos-de-privacidade",
+      "handler": "conteudo-termos-de-privacidade.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/conteudo-termos-de-privacidade",
+      "handler": "conteudo-termos-de-privacidade.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/conteudo-termos-de-privacidade",
+      "handler": "conteudo-termos-de-privacidade.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

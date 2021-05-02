@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/conteudo-nossa-historia",
+      "handler": "conteudo-nossa-historia.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/conteudo-nossa-historia",
+      "handler": "conteudo-nossa-historia.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/conteudo-nossa-historia",
+      "handler": "conteudo-nossa-historia.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

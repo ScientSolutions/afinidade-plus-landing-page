@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/conteudo-pagina-parceiros",
+      "handler": "conteudo-pagina-parceiros.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/conteudo-pagina-parceiros",
+      "handler": "conteudo-pagina-parceiros.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/conteudo-pagina-parceiros",
+      "handler": "conteudo-pagina-parceiros.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "conteudo_nossa_historias",
+  "info": {
+    "name": "Conteudo Nossa História"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "Conteudo": {
+      "type": "richtext"
+    }
+  }
+}

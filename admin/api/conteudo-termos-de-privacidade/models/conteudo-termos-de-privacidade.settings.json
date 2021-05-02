@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "conteudo_termos_de_privacidades",
+  "info": {
+    "name": "Conteúdo Termos de Privacidade"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "Conteudo": {
+      "type": "richtext"
+    }
+  }
+}
