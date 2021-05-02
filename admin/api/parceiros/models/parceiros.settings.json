@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "parceiros",
+  "info": {
+    "name": "Parceiros"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "logo": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "categoria": {
+      "type": "string"
+    },
+    "endereco": {
+      "type": "string"
+    },
+    "contato": {
+      "type": "string"
+    },
+    "beneficio": {
+      "type": "string"
+    },
+    "endereco2": {
+      "type": "json"
+    }
+  }
+}
