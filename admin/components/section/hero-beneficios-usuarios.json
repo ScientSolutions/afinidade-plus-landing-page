@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_section_hero_beneficios_usuarios",
+  "info": {
+    "name": "heroBeneficiosUsuarios",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "beneficio": {
+      "type": "component",
+      "repeatable": true,
+      "component": "vantagem.vantagem-1"
+    }
+  }
+}

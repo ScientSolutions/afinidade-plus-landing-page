@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_section_secaos",
+  "info": {
+    "name": "seção",
+    "icon": "asterisk",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "vantagem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "vantagem.vantagem-1"
+    }
+  }
+}

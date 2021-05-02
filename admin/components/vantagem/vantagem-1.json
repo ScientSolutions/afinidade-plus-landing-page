@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_vantagem_vantagem_1s",
+  "info": {
+    "name": "vantagem-1",
+    "icon": "at"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "string"
+    },
+    "icone": {
+      "type": "string"
+    }
+  }
+}

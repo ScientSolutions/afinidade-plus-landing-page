@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_redes_sociais_redesocials",
+  "info": {
+    "name": "redesocial",
+    "icon": "bookmark"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "tipo": {
+      "type": "enumeration",
+      "enum": [
+        "whatsapp",
+        "instagram",
+        "facebook",
+        "twitter",
+        "youtube"
+      ]
+    }
+  }
+}

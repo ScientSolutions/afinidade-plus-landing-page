@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_section_enderecos",
+  "info": {
+    "name": "endereco",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "rua": {
+      "type": "string"
+    },
+    "bairro": {
+      "type": "string"
+    },
+    "cidade": {
+      "type": "string"
+    },
+    "estado": {
+      "type": "string"
+    }
+  }
+}

@@ -1,8 +1,9 @@
 {
-  "kind": "singleType",
+  "kind": "collectionType",
   "collectionName": "parceiros",
   "info": {
-    "name": "Parceiros"
+    "name": "Parceiros",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,11 +12,11 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "nome": {
+    "nomeDoParceiro": {
       "type": "string"
     },
     "logo": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images",
@@ -26,20 +27,19 @@
       "required": false,
       "pluginOptions": {}
     },
-    "categoria": {
-      "type": "string"
+    "categorias_parceiro": {
+      "model": "categorias-parceiros",
+      "via": "parceiros"
+    },
+    "redesSociais": {
+      "type": "component",
+      "repeatable": false,
+      "component": "redes-sociais.redes-sociais"
     },
     "endereco": {
-      "type": "string"
-    },
-    "contato": {
-      "type": "string"
-    },
-    "beneficio": {
-      "type": "string"
-    },
-    "endereco2": {
-      "type": "json"
+      "type": "component",
+      "repeatable": false,
+      "component": "section.endereco"
     }
   }
 }

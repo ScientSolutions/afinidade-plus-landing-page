@@ -1,0 +1,14 @@
+{
+  "collectionName": "conteudo_landing_pages",
+  "info": {
+    "name": "conteudo-landing-page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false,
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {}
+}

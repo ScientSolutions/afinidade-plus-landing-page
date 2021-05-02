@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categorias_parceiros",
+  "info": {
+    "name": "categoriasParceiros"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "parceiros": {
+      "via": "categorias_parceiro",
+      "collection": "parceiros"
+    }
+  }
+}
